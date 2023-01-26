@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KyleLaboratoire1</string>
+    <string name="kyle_greene">Kyle Greene</string>
+    <string name="submit">Envoyer</string>
+    <string name="name_label">Kyle Greene</string>
+    <string name="toast_label">Kyle Greene</string>
+</resources>
