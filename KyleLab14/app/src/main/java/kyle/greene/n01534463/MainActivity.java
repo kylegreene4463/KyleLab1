@@ -1,6 +1,7 @@
 package kyle.greene.n01534463;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,11 +10,15 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button submit;
+
+    CoordinatorLayout layout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +40,21 @@ public class MainActivity extends AppCompatActivity {
         }
 
         });
+
+    }
+    public void onBackPressed() {
+        View parentLayout =
+                findViewById(android.R.id.content);
+        Snackbar.make(parentLayout, "This is main activity",
+                        Snackbar.LENGTH_LONG) .setAction("CLOSE",
+                        new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) { finish(); } })
+
+                .show();
+
+
+
 
     }
 
