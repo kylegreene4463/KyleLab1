@@ -1,10 +1,8 @@
-##ReadMe
 
-##NAME
-Kyle Greene N01534463
+# Kyle Greene N01534463
 
-##DISCRIPTION
+## DISCRIPTION
 The pourpose of this app is to display what is possible in android applications
 
-##LINK
+## LINK
 https://github.com/kylegreene4463/KyleLab1.git
