@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         View parentLayout =
                 findViewById(android.R.id.content);
-        Snackbar.make(parentLayout, "This is main activity",
-                        Snackbar.LENGTH_LONG) .setAction("CLOSE",
+        Snackbar.make(parentLayout, R.string.thisismain,
+                        Snackbar.LENGTH_LONG) .setAction(R.string.close,
                         new View.OnClickListener() {
                             @Override
                             public void onClick(View view) { finish(); } })

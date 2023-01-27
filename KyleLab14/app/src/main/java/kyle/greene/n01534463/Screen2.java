@@ -28,8 +28,8 @@ public class Screen2 extends AppCompatActivity {
     public void onBackPressed() {
         View parentLayout =
                 findViewById(android.R.id.content);
-        Snackbar.make(parentLayout, "Would you like to go back?",
-                        Snackbar.LENGTH_LONG) .setAction("YES",
+        Snackbar.make(parentLayout, R.string.goback,
+                        Snackbar.LENGTH_LONG) .setAction(R.string.yes,
                         new View.OnClickListener() {
                             @Override
                             public void onClick(View view) { finish(); } })

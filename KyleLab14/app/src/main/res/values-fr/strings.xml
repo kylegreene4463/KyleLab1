@@ -4,4 +4,8 @@
     <string name="submit">Envoyer</string>
     <string name="name_label">Kyle Greene</string>
     <string name="toast_label">Kyle Greene</string>
+    <string name="goback">Voulez-vous y retourner?</string>
+    <string name="yes">OUI</string>
+    <string name="thisismain">C\'est l\'activité principale</string>
+    <string name="close">fermer</string>
 </resources>
